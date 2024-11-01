@@ -97,6 +97,7 @@ body {
     height: 40px;
     cursor: pointer;
     justify-content: end;
+    align-self: end;
 }
 
 /*Tumbler*/
