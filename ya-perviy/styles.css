@@ -17,7 +17,7 @@ body {
 }
 
 .cover {
-    width: 100px;
+    width: 75px;
     height: 75px;
     background: radial-gradient(circle at center, #0052cc, #000);
     border-radius: 50%;
