@@ -18,7 +18,7 @@ body {
 
 .cover {
     width: 100px;
-    height: 100px;
+    height: 75px;
     background: radial-gradient(circle at center, #0052cc, #000);
     border-radius: 50%;
     display: flex;
@@ -50,6 +50,7 @@ body {
 .track {
     border-bottom: 1px solid #333;
     padding: 10px 0;
+    max-width: 400px;
 }
 
 .track-name {
@@ -92,7 +93,7 @@ body {
     gap: 5px;
     justify-content: start;
     align-items: center;
-    width: 410px;
+    max-width: 400px;
 }
 
 .controls {
@@ -179,13 +180,13 @@ input:checked + .slider:before {
 /*Music*/
 
 .music-background {
-    width: 410px;
+    max-width: 400px;
     margin-bottom: 5px;
 }
 
 #player-container {
     position: relative;
-    width: 100%;
+    max-width: 400px;
     overflow: hidden;
     height: 80px;
     background: transparent;
@@ -193,7 +194,6 @@ input:checked + .slider:before {
     border: 1px solid #555555;
     background-color: #333333;
     border-radius: 5px;
-    width: 100%;
   }
   
 .thumb {
