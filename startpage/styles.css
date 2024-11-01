@@ -97,9 +97,17 @@ body {
     height: 40px;
     cursor: pointer;
     align-self: end;
-    margin-left: -20%;
 }
 
+.button {
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    height: 40px;
+    cursor: pointer;
+    align-self: end;
+}
 
 /*Tumbler*/
 .switch {
