@@ -67,7 +67,8 @@ body {
     border: none;
     cursor: pointer;
     font-family: 'Montserrat';
-    text-align: left;
+    padding: 8px 12px;
+    border-radius: 5px;
 }
 
 .dropdown-content {
@@ -78,7 +79,10 @@ body {
     max-width: 100%;
     text-align: left;
     margin-top: 5px;
-    font-size: 12px;
+    font-size: 14px;
+    color: #fff;
+    width: 95%;
+    border-radius: 5px;
 }
 
 .controls-container {
@@ -94,6 +98,24 @@ body {
     color: white;
     border: 1px solid #555;
     height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+a.download-button {
+    color: #00acee;
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+a.download-button:hover {
+    color: #00ddff;
 }
 
 a {
@@ -105,16 +127,20 @@ a:hover {
     color: #aaa;
 }
 
-/*Tumbler*/
+/* Tumbler (Switch) */
 .switch {
     position: relative;
     display: inline-block;
     width: 60px;
-    height: 30px;}
+    height: 30px;
+}
+
 .switch input {
     opacity: 0;
     width: 0;
-    height: 0;}
+    height: 0;
+}
+
 .slider {
     position: absolute;
     cursor: pointer;
@@ -122,9 +148,11 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #333;
     transition: .4s;
-    border-radius: 30px;}
+    border-radius: 30px;
+}
+
 .slider:before {
     position: absolute;
     content: "";
@@ -134,8 +162,13 @@ a:hover {
     bottom: 2px;
     background-color: white;
     transition: .4s;
-    border-radius: 50%;}
+    border-radius: 50%;
+}
+
 input:checked + .slider {
-    background-color: #0044a9;}
+    background-color: #0044a9;
+}
+
 input:checked + .slider:before {
-    transform: translateX(30px);}
+    transform: translateX(30px);
+}
