@@ -96,9 +96,10 @@ body {
     border: 1px solid #555;
     height: 40px;
     cursor: pointer;
-    justify-content: end;
     align-self: end;
+    margin-left: auto;
 }
+
 
 /*Tumbler*/
 .switch {
