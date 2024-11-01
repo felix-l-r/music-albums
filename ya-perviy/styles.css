@@ -363,3 +363,19 @@ input:checked + .slider:before {
     width: 24px;
     background-size: 24px;
   }
+
+footer {
+    background-color: #333;
+    color: #87a6ea;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 380px;
+    border-radius: 5px;
+    border: 1px solid #555555;
+    margin-top: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
