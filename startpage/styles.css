@@ -94,6 +94,7 @@ body {
     color: white;
     border: 1px solid #555;
     height: 40px;
+    cursor: pointer;
 }
 
 /*Tumbler*/
