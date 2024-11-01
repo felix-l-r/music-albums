@@ -21,7 +21,7 @@ body {
     background: radial-gradient(circle at center, #0052cc, #000);
     border-radius: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     font-size: 48px;
     font-weight: bold;
